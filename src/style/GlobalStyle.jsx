@@ -8,10 +8,18 @@ const GlobalStyle = createGlobalStyle`
     --black-color: #000000;
   }
 
+  html, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   body{
-    all: unset;
-    background-color: var(--main-color);
-    color: inherit;
+    margin: 0;
+    padding: 0;
+    // height: 100%;
+    min-height: 100%;
   }
 
   a {
