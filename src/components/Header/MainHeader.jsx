@@ -48,7 +48,7 @@ export const MenuIcon = styled.button`
 
 const MainTitle = styled.h1`
   a{
-    font-family: 'UhBeeJJIBBABBA';
+    font-family: 'UhBeeSe_hyun';
     font-size: 4rem;
   }
 `
