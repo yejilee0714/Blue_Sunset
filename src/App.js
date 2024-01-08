@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
 import GlobalStyle from "./style/GlobalStyle";
-import MainHeader from "./components/Header/MainHeader";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <MainHeader />
+      <MainPage />
     </>
   )
 }
